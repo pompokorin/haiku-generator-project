@@ -1,5 +1,52 @@
+body {
+  background-color: #e7eaf6;
+}
+
 h1 {
   text-align: center;
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instruction {
+  padding: 15px;
+  border: 1px solid #113f67;
+  width: 80%;
+  font-size: 15px;
+  border-radius: 50px;
+  line-height: 5px;
+  color: black;
+}
+
+.submitButton {
+  margin-left: 10px;
+  border: 1px solid #113f67;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #e7eaf6;
+  width: 80px;
+}
+
+.poem {
+  font-size: 14px;
+  background-color: white;
+  padding: 25px;
+  border-left: 3px solid #113f67;
+}
+
+a {
+  color: #113f67;
 }
 
 footer {
