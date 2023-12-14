@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Haiku Generator</title>
   </head>
@@ -10,7 +11,7 @@
     <div class="container">
       <h1>Haiku Generator</h1>
 
-      <form>
+      <form id="keyword">
         <input
           type="text"
           placeholder="Enter the topic for Haiku"
@@ -21,10 +22,7 @@
         />
         <input type="submit" class="submitButton" />
       </form>
-      <div class="poem">
-        The light of a candle <br />
-        is burning my sorrow
-      </div>
+      <div class="poem" id="poem"></div>
     </div>
     <script src="src/index.js"></script>
 
