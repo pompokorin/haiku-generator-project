@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Haiku Generator</title>
@@ -14,12 +15,14 @@
       <form id="keyword">
         <input
           type="text"
-          placeholder="Enter the topic for Haiku"
+          placeholder="Enter the keyword..."
           autofocus
           required
           autocomplete="off"
           class="instruction"
+          id="user-instruction"
         />
+
         <input type="submit" class="submitButton" />
       </form>
       <div class="poem" id="poem"></div>
