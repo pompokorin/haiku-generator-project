@@ -1,11 +1,13 @@
 body {
   background-color: #e7eaf6;
+  font-family: Poppins;
 }
 
 h1 {
   text-align: center;
   line-height: 1.5;
   font-size: 30px;
+  font-weight: 400;
 }
 
 .container {
@@ -39,13 +41,13 @@ form {
 
 .hint {
   opacity: 0.6;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
 
 .poem {
-  font-size: 14px;
+  font-size: 15px;
   background-color: white;
   padding: 25px;
   border-left: 3px solid #113f67;
