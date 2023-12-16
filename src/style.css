@@ -14,9 +14,8 @@ h1 {
 }
 
 form {
-  padding: 30px;
+  padding-top: 30px;
   display: flex;
-  margin-bottom: 30px;
 }
 
 .instruction {
@@ -38,6 +37,13 @@ form {
   width: 80px;
 }
 
+.hint {
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
 .poem {
   font-size: 14px;
   background-color: white;
@@ -51,4 +57,20 @@ a {
 
 footer {
   text-align: center;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
